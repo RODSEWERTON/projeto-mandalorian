@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imagens/capacete-mando-favicon.png" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&family=Noto+Sans+Tangsa&family=Oxanium&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>The Mandalorian - Temporada 3</title>
+</head>
+<body>
+
+   <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/mandaloriano-video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    
+    <header class="cabecalho">
+        <a>
+            <img class="logo"
+            src="./src/imagens/mandalorian icon.png" alt="logo mandaloriano">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/mandalorian logo.png" alt="imagem do título do filme">
+            <p class="descricao">Em The Mandalorian, acompanhamos a história de Din Djarin, um guerreiro solitário que trabalha como caçador de recompensas. Ele embarca numa jornada pelos territórios esquecidos da galáxia, logo após a queda do Império e antes da criação da temida Primeira Ordem. O Mandaloriano está sempre buscando formas de melhorar sua armadura, até que recebe uma missão de um cliente misterioso no submundo de Nevarro. Ele precisa rastrear e capturar um alvo sem nome, de aproximadamente cinquenta anos e, apesar de seu cliente parecer não se importar, o Dr. Pershing insiste que seja mantido vivo. Então, ele encontra Grogu, um ser enigmático da raça de Yoda que precisa de sua ajuda. O Mandaloriano escolhe proteger Grogu, ou “A Criança”, como também é conhecido. Em sua busca para entender as origens de Grogu, os dois são perseguidos por Moff Gideon, um ex-governador do Império que teve a vida impactada depois que os rebeldes destruíram a segunda Estrela da Morte.</p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="mandalorian" src="./src/imagens/the mandalorian.png"/>
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" widht="650" height="315" src="https://www.youtube.com/embed/tN7fnIOVYLI" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
